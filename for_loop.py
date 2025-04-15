@@ -7,7 +7,7 @@ print(numbers)
 for i in numbers:
     print(i)
 
-#display even numbers bewteen 100 and 200,bring in the conditional statement to make a decison
+#display even numbers bewteen 100 and 200,#bring in the conditional statement to make a decison
 mynumbers=list(range(100,200))
 for num in mynumbers:
     if num%2==0:
