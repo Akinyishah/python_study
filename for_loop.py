@@ -30,7 +30,15 @@ for i in my_numbers:
         break #stops loop
     if i%2!=0: #to get odd numbers
         oddnumbers.append(i)
-print(oddnumbers)        
+print(oddnumbers)       
+
+# The range(5) function generates a sequence of numbers from 0 up to, 
+# but not including, 5. So, it produces: 0, 1, 2, 3, 4.
+# In each iteration, result is updated by adding 2 * i to its current value.
+result=0
+for i in range(5):
+    result += 2 * i
+    print(result)
 
 
 

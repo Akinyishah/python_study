@@ -1,16 +1,6 @@
 # Write a program that takes input of someone's basic salary and benefits, adds them to find the gross salary then uses 
 # the gross salary to find the NHIF. 
-# To find the Kenya NHIF Rate using THIS LINK:  link has 2015 rates used current rate of 2.75%
-# def nhif_contribution():
-#     basic_salary=float(input('enter salary: '))
-#     benefits=float(input('enter benefits: '))
-#     gross_salary=basic_salary+benefits
-#     print(f'gross salary:{gross_salary:,.2f}')
-#     nhif_contribution=0.0275 #2.75% of gross salary
-#     nhif_contribution = gross_salary * 0.0275
-#     print(f'nhif contribution:{nhif_contribution:,.2f}')
-# nhif_contribution()  
-
+# To find the Kenya NHIF Rate using THIS LINK:
 def calc_gross_salary(basic,benefits):
     gross =basic+benefits
     return gross
@@ -77,6 +67,9 @@ def calc_nhdf(gross,nhdf_rate=0.015):
     return nhdf
 NHDF=calc_nhdf(gross_salary)
 print(NHDF)
+
+
+
 # Calculate the taxable income.
 # i.e taxable_income = gross salary - (NSSF + NHDF + NHIF) 
 def calc_taxableincome(gross,NSSF,NHDF,NHIF):
