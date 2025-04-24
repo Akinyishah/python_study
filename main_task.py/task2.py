@@ -9,13 +9,13 @@
 #     print('odd')
 # #Using the Functions:
 
-num=int(input('enter number: '))# this is for when user has been told to input number 
-
+# this is for when user has been told to input number 
 def check_even_odd(number):
     if number % 2==0:
         print('even')
     else:
         print('odd')    
+num=int(input('enter number: '))
 check_even_odd(num)
 
  
