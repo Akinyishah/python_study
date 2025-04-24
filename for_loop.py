@@ -1,3 +1,7 @@
+#Loops are used to repeat a task multiple time, can also be used to iterate within a sequence
+#Iterate-means to repeatedly execute a set of instructions over a collection of items,such as elements in a list, dict,STR and other iterable objects 
+# Iteration is typically performed using loops (e.g., for or while loops) #to process each item in the collection one at a time.
+
 x=[10,20,30,40,50,60]
 for num in x:
     print(num)
@@ -15,7 +19,8 @@ for num in mynumbers:
         
 #display numbers divisible by 5 between 50 and 150
 numbers=list(range(50,150))
-divisible_5=[] #declare a variable and give blank list and append the i variable to have everything inside that list.
+#declare a variable and give blank list and append the i variable to have everything inside that list.
+divisible_5=[]
 for i in numbers:
     if i%5==0:
         divisible_5.append(i)

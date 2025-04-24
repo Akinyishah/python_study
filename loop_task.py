@@ -7,7 +7,8 @@ numbers=list(range(1,51))
 divisible_5_7=[]           
 for i in numbers:
     if i%5==0 or i%7==0:
-        divisible_5_7.append(i) # HAVING THE.append to add values to list because its its not there the list will be empty
+#HAVING THE.append to add values to list because its its not there the list will be empty
+        divisible_5_7.append(i) 
 
 print( divisible_5_7)       
 
@@ -22,7 +23,8 @@ print(avg)
 
 # 4.Put in a list the first 10 odd numbers between 10 to 50. (for num in range(10,51))
 oddnumbers=[]
-count=0 # counting them if told to count and increase them with the count+=1-this will count upto the 10th one
+# counting them if told to count and increase them with the count+=1-this will count upto the 10th one
+count=0 
 for nums in range(10,52):
        if nums % 2==1:
               count+=1
